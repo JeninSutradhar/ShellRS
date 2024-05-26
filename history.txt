@@ -1,0 +1,22 @@
+#V2
+// YOUR COMMANDS HISTORY WILL BE SAVED HERE
+#V2
+whoami
+cargo 
+code .
+ls
+sudo -s
+cargo
+cd target
+ls
+cd ..
+cd target
+cd ..
+ls
+whoami
+invalid_command
+echo "Hello"
+cat history.txt
+cd target
+cd ..
+ls
