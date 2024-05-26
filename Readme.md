@@ -1,6 +1,7 @@
 # Shell RS
 ShellRS is a powerful shell implemented in Rust. It supports advance command execution, piping, redirection, and this enhanced shell properly handle opening applications, executing commands with elevated privileges, and improving the overall user experience.
 
+![shelllogo](https://github.com/JeninSutradhar/ShellRS/assets/111521642/b189226e-59d2-4d12-baf0-df170ad31062)
 
 ## Features
 
@@ -12,9 +13,10 @@ ShellRS is a powerful shell implemented in Rust. It supports advance command exe
 - **Custom Prompts and Colors:** Enjoy a customizable and colorful prompt.
 - **History and Tab Completion:** Navigate through command history and use tab completion for efficiency.
 
-
 ## Usage
 Once you start ShellRS, you can begin typing commands just like you would in any other shell.
+
+![shellfull](https://github.com/JeninSutradhar/ShellRS/assets/111521642/e6558dad-4a77-43b5-9ae8-e46b72b5798c)
 
 ### Basic Commands
 
