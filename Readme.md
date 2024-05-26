@@ -8,7 +8,7 @@ ShellRS is a powerful shell implemented in Rust. It supports advance command exe
  ___/ / / / /  __/ / /  / _, _/___/ /     
 /____/_/ /_/\___/_/_/  /_/ |_|/____/      
 </p>
-![shelllogo](https://github.com/JeninSutradhar/ShellRS/assets/111521642/b189226e-59d2-4d12-baf0-df170ad31062)
+
 
 ## Features
 
