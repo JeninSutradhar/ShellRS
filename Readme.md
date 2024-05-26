@@ -1,13 +1,13 @@
 # Shell RS
 ShellRS is a powerful shell implemented in Rust. It supports advance command execution, piping, redirection, and this enhanced shell properly handle opening applications, executing commands with elevated privileges, and improving the overall user experience.
 
-`
+```
    _____ __         ____   ____  _____    
   / ___// /_  ___  / / /  / __ \/ ___/    
   \__ \/ __ \/ _ \/ / /  / /_/ /\__ \     
  ___/ / / / /  __/ / /  / _, _/___/ /     
 /____/_/ /_/\___/_/_/  /_/ |_|/____/      
-`
+```
 
 ## Features
 
