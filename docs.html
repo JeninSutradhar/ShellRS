@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shell RS Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Shell RS</h1>
+            <p>ShellRS is a powerful shell implemented in Rust. It supports advanced command execution, piping, redirection, and this enhanced shell properly handles opening applications, executing commands with elevated privileges, and improving the overall user experience.</p>
+            <pre>
+               _____ __         ____   ____  _____    
+              / ___// /_  ___  / / /  / __ \/ ___/    
+              \__ \/ __ \/ _ \/ / /  / /_/ /\__ \     
+             ___/ / / / /  __/ / /  / _, _/___/ /     
+            /____/_/ /_/\___/_/_/  /_/ |_|/____/      
+            </pre>
+        </header>
+        <main>
+            <section id="features">
+                <h2>Features</h2>
+                <ul>
+                    <li><strong>Basic Commands:</strong> Execute common commands like ls, pwd, echo.</li>
+                    <li><strong>Directory Navigation:</strong> Change and list directories.</li>
+                    <li><strong>Piping and Redirection:</strong> Use pipes and redirections to manipulate command output.</li>
+                    <li><strong>Error Handling:</strong> Gracefully handle invalid commands.</li>
+                    <li><strong>Environment Variables:</strong> Set and use environment variables.</li>
+                    <li><strong>Custom Prompts and Colors:</strong> Enjoy a customizable and colorful prompt.</li>
+                    <li><strong>History and Tab Completion:</strong> Navigate through command history and use tab completion for efficiency.</li>
+                </ul>
+            </section>
+            <section id="usage">
+                <h2>Usage</h2>
+                <p>Once you start ShellRS, you can begin typing commands just like you would in any other shell.</p>
+                <img src="https://github.com/JeninSutradhar/ShellRS/assets/111521642/e6558dad-4a77-43b5-9ae8-e46b72b5798c" alt="Shell RS in action">
+            </section>
+            <section id="commands">
+                <h2>Basic Commands</h2>
+                <h3>List Files (<code>ls</code>)</h3>
+                <pre><code>&gt; ls</code></pre>
+                <p>This command lists all files and directories in the current directory.</p>
+                
+                <h3>Print Working Directory (<code>pwd</code>)</h3>
+                <pre><code>&gt; pwd</code></pre>
+                <p>This command displays the full path of the current directory.</p>
+                
+                <h3>Echo Text (<code>echo</code>)</h3>
+                <pre><code>&gt; echo Hello, ShellRS!</code></pre>
+                <p>This command outputs the specified text to the terminal.</p>
+                
+                <h2>Directory Navigation</h2>
+                <h3>Change Directory (<code>cd</code>)</h3>
+                <pre><code>&gt; cd src</code></pre>
+                <p>This command changes the current directory to <code>src</code>.</p>
+                
+                <h3>List Files in New Directory (<code>ls</code>)</h3>
+                <pre><code>&gt; ls</code></pre>
+                <p>After changing the directory, you can list the files in the new directory.</p>
+                
+                <h2>Piping and Redirection</h2>
+                <h3>Pipe Commands</h3>
+                <pre><code>&gt; ls | grep Cargo</code></pre>
+                <p>This command lists all files and directories, and then filters the output to show only those containing "Cargo".</p>
+                
+                <h2>Error Handling</h2>
+                <h3>Invalid Command</h3>
+                <pre><code>&gt; invalidcommand</code></pre>
+                <p>This command will show an error message indicating that the command was not found.</p>
+                
+                <h3>Invalid Directory</h3>
+                <pre><code>&gt; cd nonexistentdirectory</code></pre>
+                <p>This command will show an error message indicating that the directory does not exist.</p>
+                
+                <h2>Environment Variables</h2>
+                <h3>Set Environment Variable</h3>
+                <pre><code>&gt; export MYVAR=myvalue</code></pre>
+                <p>This command sets an environment variable <code>MYVAR</code> with the value <code>myvalue</code>.</p>
+                
+                <h3>Use Environment Variable</h3>
+                <pre><code>&gt; echo $MYVAR</code></pre>
+                <p>This command outputs the value of <code>MYVAR</code>.</p>
+                
+                <h2>Custom Prompts and Colors</h2>
+                <p>When you start ShellRS, you will see a colorful prompt:</p>
+                <pre><code>&gt; </code></pre>
+                <p>This prompt is customizable and adds a visual appeal to your shell experience.</p>
+                
+                <h2>History and Tab Completion</h2>
+                <p>Use the up and down arrow keys to navigate through your command history.</p>
+                <p>Start typing a command or file name and press <code>Tab</code> to auto-complete.</p>
+                
+                <h2>Exit</h2>
+                <p>To exit the shell, you can type:</p>
+                <pre><code>&gt; exit</code></pre>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 ShellRS. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>document.addEventListener('DOMContentLoaded', function() {
+    // Add any JavaScript interactions here if needed in the future
+    });
+    </script>
+
+<style>
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #bb86fc;
+}
+
+pre {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    color: #03dac6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #bb86fc;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #bb86fc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    font-size: 0.9em;
+    color: #777;
+}
+</style>
+</body>
+</html>
