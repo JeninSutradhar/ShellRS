@@ -94,14 +94,6 @@ Once you start ShellRS, you can begin typing commands just like you would in any
     ```
     This command outputs the value of `MYVAR`.
 
-### Custom Prompts and Colors
-
-- **Custom Prompt**:
-    When you start ShellRS, you will see a colorful prompt:
-    ```sh
-    > 
-    ```
-    This prompt is customizable and adds a visual appeal to your shell experience.
 
 ### History and Tab Completion
 
